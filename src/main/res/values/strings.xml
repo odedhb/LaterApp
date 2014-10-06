@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Later</string>
+    <string name="app_signature">-- Created with Later</string>
+
+    <string name="specific_date">&#xf073; Specific date</string>
+
+    <string name="fa_check">&#xf00c;</string>
+    <string name="fa_check_circle">&#xf058;</string>
+    <string name="fa_plus">&#xf067;</string>
+
+    <string name="fa_clock_o">&#xf017;</string>
+    <string name="fa_cutlery">&#xf0f5;</string>
+    <string name="fa_sun_o">&#xf185;</string>
+    <string name="fa_moon_o">&#xf186;</string>
+    <string name="fa_star_o">&#xf006;</string>
+    <string name="fa_calendar_o">&#xf133;</string>
+    <string name="fa_calendar">&#xf073;</string>
+
+
+    <string name="fa_exclamation_circle">&#xf06a;</string>
+    <string name="fa_circle_o">&#xf10c;</string>
+    <string name="fa_adjust">&#xf042;</string>
+    <string name="fa_circle">&#xf111;</string>
+    <string name="fa_circle_thin">&#xf1db;</string>
+    <string name="fa_pause">&#xf04c;</string>
+    <string name="fa_angle_right">&#xf105;</string>
+    <string name="fa_angle_double_right">&#xf101;</string>
+
+
+    <string name="fa_trash_o">&#xf014;</string>
+    <string name="fa_random">&#xf074;</string>
+
+    <string name="remove_button">&#xf00c; Complete</string>
+    <string name="someday_button">&#xf074; Someday</string>
+    <string name="drag_help">Drag items to balance your week</string>
+
+
+    <string name="copy_button">&#xf0c5; Copy</string>
+    <string name="share_button">&#xf064; Share</string>
+    <string name="event_button">&#xf073; Event</string>
+
+    <string name="new_item">&#xf067;</string>
+
+</resources>

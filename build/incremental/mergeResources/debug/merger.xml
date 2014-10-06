@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/oded/Dropbox/LaterApp/Later/src/main/res" >
+            <file
+                name="button_gen_on"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/button_gen_on.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button_off"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/button_off.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button_on"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/button_on.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="circle"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/circle.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="generic_button_selector"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/generic_button_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="generic_button_selector_right_gradient"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/generic_button_selector_right_gradient.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="header_bg_left"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/header_bg_left.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="header_bg_right"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/header_bg_right.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="plus"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/plus.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="separator"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/separator.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="shadow"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/shadow.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="shadow_top"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/shadow_top.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="snooze_button_selector"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/snooze_button_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tick_bg"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/tick_bg.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="triangle"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/triangle.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="week_divider"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable/week_divider.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_copy"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-xxhdpi/ic_action_copy.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_next_item"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-xxhdpi/ic_action_next_item.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_previous_item"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-xxhdpi/ic_action_previous_item.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="notifications"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-xxhdpi/notifications.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="notifications_swiped"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-xxhdpi/notifications_swiped.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="spinner_triangle"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-xxhdpi/spinner_triangle.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="fa_adjust"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-xxxhdpi/fa_adjust.png"
+                qualifiers="xxxhdpi"
+                type="drawable" />
+            <file
+                name="fa_angle_double_right"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-xxxhdpi/fa_angle_double_right.png"
+                qualifiers="xxxhdpi"
+                type="drawable" />
+            <file
+                name="fa_angle_right"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-xxxhdpi/fa_angle_right.png"
+                qualifiers="xxxhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-xxxhdpi/ic_launcher.png"
+                qualifiers="xxxhdpi"
+                type="drawable" />
+            <file
+                name="tick"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-xxxhdpi/tick.png"
+                qualifiers="xxxhdpi"
+                type="drawable" />
+            <file
+                name="transparent"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/drawable-xxxhdpi/transparent.png"
+                qualifiers="xxxhdpi"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="crazy_graph"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/crazy_graph.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="date_time_picker"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/date_time_picker.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_create"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/dialog_create.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_create_list_item"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/dialog_create_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_header"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/dialog_header.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_open"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/dialog_open.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_open_list_item"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/dialog_open_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_snooze"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/dialog_snooze.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_snooze_list_item"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/dialog_snooze_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="footer"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/footer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="french_toast"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/french_toast.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="header_later"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/header_later.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="header_now"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/header_now.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="header_spacer"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/header_spacer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_row"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/item_row.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="item_row_white"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/item_row_white.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="magic_tabs"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/magic_tabs.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="tap"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/raw/tap.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="woman_clears_throat"
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/raw/woman_clears_throat.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >8dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >8dp
+                </dimen>
+                <dimen name="crazy_graph_top_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="fa_pause" >
+                </string>
+                <string name="event_button" > Event
+                </string>
+                <string name="specific_date" > Specific date
+                </string>
+                <string name="fa_clock_o" >
+                </string>
+                <string name="drag_help" >Drag items to balance your week
+                </string>
+                <string name="fa_moon_o" >
+                </string>
+                <string name="fa_sun_o" >
+                </string>
+                <string name="new_item" >
+                </string>
+                <string name="fa_calendar_o" >
+                </string>
+                <string name="share_button" > Share
+                </string>
+                <string name="fa_adjust" >
+                </string>
+                <string name="fa_cutlery" >
+                </string>
+                <string name="someday_button" > Someday
+                </string>
+                <string name="fa_circle_o" >
+                </string>
+                <string name="fa_random" >
+                </string>
+                <string name="fa_exclamation_circle" >
+                </string>
+                <string name="fa_check_circle" >
+                </string>
+                <string name="copy_button" > Copy
+                </string>
+                <string name="fa_calendar" >
+                </string>
+                <string name="fa_circle_thin" >
+                </string>
+                <string name="fa_angle_right" >
+                </string>
+                <string name="fa_angle_double_right" >
+                </string>
+                <string name="fa_plus" >
+                </string>
+                <string name="fa_circle" >
+                </string>
+                <string name="fa_trash_o" >
+                </string>
+                <string name="app_name" >Later
+                </string>
+                <string name="app_signature" >-- Created with Later
+                </string>
+                <string name="remove_button" > Complete
+                </string>
+                <string name="fa_check" >
+                </string>
+                <string name="fa_star_o" >
+                </string>
+            </file>
+            <file
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.NoActionBar" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/oded/Dropbox/LaterApp/Later/src/main/res/values-w820dp/dimens.xml"
+                qualifiers="w820dp" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+        </source>
+        <source path="/Users/oded/Dropbox/LaterApp/Later/build/res/rs/debug" />
+        <source path="/Users/oded/Dropbox/LaterApp/Later/build/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/oded/Dropbox/LaterApp/Later/src/debug/res" />
+    </dataSet>
+
+</merger>

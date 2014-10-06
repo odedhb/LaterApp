@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/oded/Dropbox/LaterApp/Later/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    <dimen name="crazy_graph_top_margin">64dp</dimen>
+    <!-- From: file:/Users/oded/Dropbox/LaterApp/Later/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">Later</string>
+    <string name="app_signature">-- Created with Later</string>
+    <string name="copy_button"> Copy</string>
+    <string name="drag_help">Drag items to balance your week</string>
+    <string name="event_button"> Event</string>
+    <string name="fa_adjust"></string>
+    <string name="fa_angle_double_right"></string>
+    <string name="fa_angle_right"></string>
+    <string name="fa_calendar"></string>
+    <string name="fa_calendar_o"></string>
+    <string name="fa_check"></string>
+    <string name="fa_check_circle"></string>
+    <string name="fa_circle"></string>
+    <string name="fa_circle_o"></string>
+    <string name="fa_circle_thin"></string>
+    <string name="fa_clock_o"></string>
+    <string name="fa_cutlery"></string>
+    <string name="fa_exclamation_circle"></string>
+    <string name="fa_moon_o"></string>
+    <string name="fa_pause"></string>
+    <string name="fa_plus"></string>
+    <string name="fa_random"></string>
+    <string name="fa_star_o"></string>
+    <string name="fa_sun_o"></string>
+    <string name="fa_trash_o"></string>
+    <string name="new_item"></string>
+    <string name="remove_button"> Complete</string>
+    <string name="share_button"> Share</string>
+    <string name="someday_button"> Someday</string>
+    <string name="specific_date"> Specific date</string>
+    <!-- From: file:/Users/oded/Dropbox/LaterApp/Later/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

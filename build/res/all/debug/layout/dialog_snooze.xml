@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/master_view"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#666" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="@string/specific_date"
+            android:id="@+id/specific_date"
+            android:background="@drawable/generic_button_selector"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:textSize="16sp"
+            android:layout_alignParentTop="true"
+            android:layout_height="wrap_content" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#666"
+            android:id="@+id/divider_open_dialog" />
+
+
+        <ListView
+            android:id="@+id/snooze_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</RelativeLayout><!-- From: file:/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/dialog_snooze.xml -->

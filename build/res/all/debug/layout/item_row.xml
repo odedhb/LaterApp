@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/root_master"
+    android:background="#f00"
+    android:layout_height="match_parent">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#66333333"
+        android:visibility="gone"
+        android:id="@+id/bg_darkener"
+        android:layout_height="106dp" />
+
+    <!--<com.blogspot.odedhb.later.views.DrawView
+        android:layout_width="match_parent"
+        android:id="@+id/bg_draw_view"
+        android:layout_height="106dp" />-->
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/snooze_buttons_overlay"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="78dp">
+
+
+            <RelativeLayout
+                android:layout_marginRight="8dp"
+                android:layout_gravity="bottom"
+                android:layout_width="48dp"
+                android:layout_height="48dp">
+
+                <TextView
+                    android:id="@+id/item_done_color_label_bottom"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:text="@string/fa_circle"
+                    android:textSize="48dp"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:background="@android:color/transparent" />
+
+
+                <TextView
+                    android:id="@+id/item_done_color_label_top"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:text="@string/fa_check"
+                    android:textSize="32dp"
+                    android:gravity="center"
+                    android:background="@android:color/transparent" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:fontFamily="sans-serif-thin"
+                    android:id="@+id/item_time"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:textColor="#fff"
+                    android:paddingTop="8dp"
+                    android:text="no time"
+                    android:paddingBottom="32dp"
+                    android:drawableRight="@drawable/spinner_triangle"
+                    android:gravity="top"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:background="@drawable/generic_button_selector_right_gradient"
+                    android:textSize="14sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="bottom"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:fontFamily="sans-serif-light"
+                        android:id="@+id/item_time_delta"
+                        android:layout_width="wrap_content"
+                        android:text="no time"
+                        android:textColor="#99ffffff"
+                        android:textSize="14sp"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:id="@+id/item_desc"
+                        android:text="no description"
+                        android:singleLine="true"
+                        android:padding="1dp"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/snooze_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shadow_top"
+        android:layout_height="8dp" />
+
+
+</RelativeLayout>
+<!-- From: file:/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/item_row.xml -->

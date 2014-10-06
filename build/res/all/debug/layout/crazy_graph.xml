@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/header_spacer" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/crazy_graph_top_margin"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center_horizontal|top"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_desc"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:singleLine="true"
+            android:text="@string/drag_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:id="@+id/divider_colored"
+            android:layout_margin="4dp" />
+
+        <LinearLayout
+            android:id="@+id/days_week_holder"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/day0"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:fontFamily="sans-serif-thin"
+                android:id="@+id/day1"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:id="@+id/day2"
+                android:fontFamily="sans-serif-thin"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/day3"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/day4"
+                android:gravity="center"
+                android:fontFamily="sans-serif-thin"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:id="@+id/day5"
+                android:fontFamily="sans-serif-thin"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:id="@+id/day6"
+                android:fontFamily="sans-serif-thin"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/graph_holder"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="64dp"
+        android:id="@+id/drop_buttons"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:background="#00000000"
+            android:textColor="#00000000"
+            android:gravity="center"
+            android:padding="8dp"
+            android:id="@+id/drop_someday"
+            android:singleLine="true"
+            android:text="@string/someday_button"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:text="@string/remove_button"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:singleLine="true"
+            android:padding="8dp"
+            android:id="@+id/drop_remove"
+            android:background="#00000000"
+            android:textColor="#00000000"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/crazy_graph.xml -->

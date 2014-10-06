@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:stretchColumns="1"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:padding="8dp"
+            >
+
+            <View
+                android:id="@+id/rect_bullet"
+                android:layout_width="28dp"
+                android:background="#fff"
+                android:visibility="gone"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center"
+                android:layout_height="14dp" />
+
+            <AutoCompleteTextView
+                android:layout_width="64dp"
+                android:singleLine="true"
+                android:hint="Don't forget to..."
+                android:paddingLeft="2dp"
+                android:inputType="textCapSentences|textAutoCorrect"
+                android:autoText="true"
+                android:gravity="center_vertical"
+                android:id="@+id/item_edit"
+                android:background="@android:color/transparent"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:background="@drawable/generic_button_selector"
+                android:layout_width="wrap_content"
+                android:textSize="32sp"
+                android:textColor="#fff"
+                android:id="@+id/done_create_item"
+                android:text="@string/fa_plus"
+                android:layout_height="48dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:background="#fff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:background="#fff" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/item_suggestions"
+        android:layout_marginTop="64dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout><!-- From: file:/Users/oded/Dropbox/LaterApp/Later/src/main/res/layout/dialog_create.xml -->
